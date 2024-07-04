@@ -1,8 +1,10 @@
 package org.bronze;
 
+import java.util.Scanner;
+
 /**
  * packageName : org.bronze
- * fileName : register
+ * fileName : reverseN
  * author : hayj6
  * date : 2024-07-02(002)
  * description :
@@ -13,9 +15,12 @@ package org.bronze;
  * -----------------------------------------------------------
  * 2024-07-02(002)         hayj6          최초 생성
  */
-public class register {
+public class ReverseN {
     public static void main(String[] args) {
-        System.out.println("123");
-        System.out.println("YOUR_ICPC_Team_Name");
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();  // 5
+        for (int i = a; i >= 1; i--) {
+            System.out.println(i);
+        }
     }
 }
