@@ -22,5 +22,6 @@ public class AaddB {
         int b = scanner.nextInt();
 
         System.out.println(a+b);    // 정수의 합
+        
     }
 }
